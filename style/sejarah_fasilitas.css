@@ -1,0 +1,78 @@
+/* Navbar */
+#navbar-container {
+    transition: ease 0.3s;
+}
+
+.navbar-scrolled {
+    background-color: #244c6d;
+}
+
+.navbar-clicked {
+    background-color: #244c6d;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-toggler-white {
+    border: 1px solid white !important;
+    color: white !important;
+}
+
+.navbar-toggler-icon-scrolled {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255%2C 255%2C 255%2C 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22 M4 15h22 M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* Gallery */
+#gallery-title {
+  width: 30%;
+}
+
+.gallery-container {
+  background-color: #244c6d;
+}
+
+.gallery-item img {
+  height: 80vh;
+  width: 50vh;
+  object-fit: cover;
+}
+
+.sticky-parent {
+  height: 210vh;
+}
+
+.sticky {
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+}
+
+.scroll-section {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 210vw;
+  will-change: transform;
+}
+
+/* Pop Up */
+#popUp {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+  pointer-events: none;
+}
+
+#popUp.show {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+/* Footer */
+#footer-container {
+  background-color: #244c6d;
+}

@@ -1,0 +1,30 @@
+/* Navbar */
+#navbar-container {
+    transition: ease 0.3s;
+}
+
+.navbar-scrolled {
+    background-color: #244c6d;
+}
+
+.navbar-clicked {
+    background-color: #244c6d;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-toggler-white {
+    border: 1px solid white !important;
+    color: white !important;
+}
+
+.navbar-toggler-icon-scrolled {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255%2C 255%2C 255%2C 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22 M4 15h22 M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* Footer */
+#footer-container {
+    background-color: #244c6d;
+  }

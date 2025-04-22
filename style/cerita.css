@@ -1,0 +1,72 @@
+/* Storyline */
+#storyline-1 {
+    display: none;
+}
+
+#storyline-2 {
+    display: none;
+}
+
+#storyline-3 {
+    display: none;
+}
+
+.storyline-1-active {
+    display: flex !important;
+}
+
+.storyline-2-active {
+    display: flex !important;
+}
+
+.storyline-3-active {
+    display: flex !important;
+}
+
+/* Navbar */
+#navbar-container {
+    transition: ease 0.3s;
+}
+
+.navbar-scrolled {
+    background-color: #244c6d;
+}
+
+.navbar-clicked {
+    background-color: #244c6d;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-toggler-white {
+    border: 1px solid white !important;
+    color: white !important;
+}
+
+.navbar-toggler-icon-scrolled {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255%2C 255%2C 255%2C 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22 M4 15h22 M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* Hero */
+#hero-container {
+    min-height: calc(100vh - 100px);
+    padding-bottom: 4rem;
+}
+
+#start {
+    background-color: #244c6d;
+    color: white;
+}
+
+/* Footer */
+#footer-container {
+    background-color: #244c6d;
+}
+
+/* Character */
+.character-active {
+    transform: scale(1.1);
+    border: 2px solid #244c6d;
+}
