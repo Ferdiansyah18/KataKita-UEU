@@ -82,7 +82,7 @@
     <!-- Hero End -->
 
 <!-- Gallery Start -->
-<section class="gallery-container container-fluid py-5" id="fasilitas">
+<section class="d-none d-lg-block gallery-container container-fluid py-5" id="fasilitas">
   <div class="sticky-parent">
     <div class="sticky">
       <div class="scroll-section d-flex flex-nowrap justify-content-around text-light px-3 gap-4 align-items-center">
@@ -102,7 +102,9 @@
         data-img-2="img/Perpustakaan-2.jpeg"
         data-img-3="img/Perpustakaan-4.jpeg"
         data-desc="Fasilitas ini menyediakan koleksi buku digital dan fisik yang lengkap.">
-          <img src="img/Perpustakaan-3.jpeg" alt="Fasilitas 1" class="img-fluid rounded shadow-sm">
+          	<div class="overflow-hidden rounded">
+              <img src="img/Perpustakaan-3.jpeg" alt="Fasilitas 1" class="img-fluid rounded shadow-sm">
+            </div>
           <p class="mt-2">Perpustakaan</p>
         </div>
         <div class="gallery-item flex-shrink-0 text-center"
@@ -111,7 +113,9 @@
         data-title="Lab iMac"
         data-img="img/Lab-iMac.jpeg"
         data-desc="Fasilitas ini menyediakan Komputer yang canggih">
-          <img src="img/Lab-iMac.jpeg" alt="Fasilitas 2" class="img-fluid rounded shadow-sm">
+          <div class="overflow-hidden rounded">
+            <img src="img/Lab-iMac.jpeg" alt="Fasilitas 2" class="img-fluid rounded shadow-sm">
+          </div>
           <p class="mt-2">Laboratorium Komputer</p>
         </div>
         <div class="gallery-item flex-shrink-0 text-center"
@@ -120,7 +124,9 @@
         data-title="Lift"
         data-img="img/Lift.jpeg"
         data-desc="ini desc">
-          <img src="img/Lift.jpeg" alt="Fasilitas 3" class="img-fluid rounded shadow-sm">
+          <div class="overflow-hidden rounded">
+            <img src="img/Lift.jpeg" alt="Fasilitas 3" class="img-fluid rounded shadow-sm">
+          </div>
           <p class="mt-2">Lift</p>
         </div>
         <div class="gallery-item flex-shrink-0 text-center"
@@ -129,7 +135,9 @@
         data-title="Lapangan Bola Basket"
         data-img="img/Lapangan-Bola-Basket.jpeg"
         data-desc="ini desc">
-          <img src="img/Lapangan-Bola-Basket.jpeg" alt="Fasilitas 4" class="img-fluid rounded shadow-sm">
+          <div class="overflow-hidden rounded">
+            <img src="img/Lapangan-Bola-Basket.jpeg" alt="Fasilitas 4" class="img-fluid rounded shadow-sm">
+          </div>
           <p class="mt-2">Lapangan Bola Basket</p>
         </div>
         <div class="gallery-item flex-shrink-0 text-center"
@@ -138,7 +146,9 @@
         data-title="Toilet"
         data-img="img/Toilet-Wanita.jpeg"
         data-desc="ini desc">
-          <img src="img/Toilet-Wanita.jpeg" alt="Fasilitas 5" class="img-fluid rounded shadow-sm">
+          <div class="overflow-hidden rounded">
+            <img src="img/Toilet-Wanita.jpeg" alt="Fasilitas 5" class="img-fluid rounded shadow-sm">
+          </div>
           <p class="mt-2">Toilet</p>
         </div>
         <div class="gallery-item flex-shrink-0 text-center"
@@ -148,7 +158,9 @@
         data-img="img/Parkir-Mobil.jpeg"
         data-img-1="img/Parkir-Motor.jpeg"
         data-desc="ini desc">
-          <img src="img/Parkir-Mobil.jpeg" alt="Fasilitas 6" class="img-fluid rounded shadow-sm">
+          <div class="overflow-hidden rounded">
+            <img src="img/Parkir-Mobil.jpeg" alt="Fasilitas 6" class="img-fluid rounded shadow-sm">
+          </div>
           <p class="mt-2">Parkir Kendaraan</p>
         </div>
       </div>
@@ -156,6 +168,89 @@
   </div>
 </section>
 <!-- Gallery End -->
+
+<!-- Gallery-sm -->
+<div class="d-flex d-lg-none flex-column flex-nowrap justify-content-around text-light py-5 gap-4 align-items-center gallery-container">
+  <!-- Intro Content -->
+  <div class=" intro-content flex-shrink-0 text-center" id="gallery-title">
+    <h1 class="display-4">Fasilitas</h1>
+    <p class="lead">Penasaran dengan fasilitas yang dimiliki Universitas Esa Unggul?<br>Yuk kita cek!</p>
+  </div>
+
+  <!-- Gallery Items -->
+  <div class="gallery-item flex-shrink-0 text-center d-flex flex-column"
+  style="height: 70vh;" 
+  onclick="openOverlay(this)"
+  data-title="Perpustakaan" 
+  data-img="img/Perpustakaan-3.jpeg"
+  data-img-1="img/Perpustakaan-1.jpeg"
+  data-img-2="img/Perpustakaan-2.jpeg"
+  data-img-3="img/Perpustakaan-4.jpeg"
+  data-desc="Fasilitas ini menyediakan koleksi buku digital dan fisik yang lengkap.">
+      <div class="overflow-hidden rounded">
+        <img src="img/Perpustakaan-3.jpeg" alt="Fasilitas 1" class="img-fluid rounded shadow-sm">
+      </div>
+    <p class="mt-2">Perpustakaan</p>
+  </div>
+  <div class="gallery-item flex-shrink-0 text-center d-flex flex-column"
+  style="height: 70vh;"
+  onclick="openOverlay(this)"
+  data-title="Lab iMac"
+  data-img="img/Lab-iMac.jpeg"
+  data-desc="Fasilitas ini menyediakan Komputer yang canggih">
+    <div class="overflow-hidden rounded">
+      <img src="img/Lab-iMac.jpeg" alt="Fasilitas 2" class="img-fluid rounded shadow-sm">
+    </div>
+    <p class="mt-2">Laboratorium Komputer</p>
+  </div>
+  <div class="gallery-item flex-shrink-0 text-center d-flex flex-column"
+  style="height: 70vh;"
+  onclick="openOverlay(this)"
+  data-title="Lift"
+  data-img="img/Lift.jpeg"
+  data-desc="ini desc">
+    <div class="overflow-hidden rounded">
+      <img src="img/Lift.jpeg" alt="Fasilitas 3" class="img-fluid rounded shadow-sm">
+    </div>
+    <p class="mt-2">Lift</p>
+  </div>
+  <div class="gallery-item flex-shrink-0 text-center d-flex flex-column"
+  style="height: 70vh;"
+  onclick="openOverlay(this)"
+  data-title="Lapangan Bola Basket"
+  data-img="img/Lapangan-Bola-Basket.jpeg"
+  data-desc="ini desc">
+    <div class="overflow-hidden rounded">
+      <img src="img/Lapangan-Bola-Basket.jpeg" alt="Fasilitas 4" class="img-fluid rounded shadow-sm">
+    </div>
+    <p class="mt-2">Lapangan Bola Basket</p>
+  </div>
+  <div class="gallery-item flex-shrink-0 text-center d-flex flex-column"
+  style="height: 70vh;"
+  onclick="openOverlay(this)"
+  data-title="Toilet"
+  data-img="img/Toilet-Wanita.jpeg"
+  data-desc="ini desc">
+    <div class="overflow-hidden rounded">
+      <img src="img/Toilet-Wanita.jpeg" alt="Fasilitas 5" class="img-fluid rounded shadow-sm">
+    </div>
+    <p class="mt-2">Toilet</p>
+  </div>
+  <div class="gallery-item flex-shrink-0 text-center d-flex flex-column"
+  style="height: 70vh;"
+  onclick="openOverlay(this)"
+  data-title="Parkir Kendaraan"
+  data-img="img/Parkir-Mobil.jpeg"
+  data-img-1="img/Parkir-Motor.jpeg"
+  data-desc="ini desc">
+    <div class="overflow-hidden rounded">
+      <img src="img/Parkir-Mobil.jpeg" alt="Fasilitas 6" class="img-fluid rounded shadow-sm">
+    </div>
+    <p class="mt-2">Parkir Kendaraan</p>
+  </div>
+</div>
+</div>
+<!-- Gallery-sm -->
 
 <!-- Pop Up Start -->
 <section id="popUp" class="bg-light position-fixed top-0 start-0 w-100 h-100 d-none overflow-auto z-1">
@@ -171,7 +266,7 @@
         <h3 class="display-3"></h3>
         <p class="lh-lg"></p>
         <div class="album">
-          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 py-3">
             <div class="col">
               <img class="rounded img-fluid" id="img-gallery-1" src="" alt="" style="height: 10rem; width: 100%; object-fit: cover;">
             </div>
