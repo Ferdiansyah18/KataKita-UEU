@@ -24,6 +24,17 @@ a {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255%2C 255%2C 255%2C 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22 M4 15h22 M4 23h22'/%3E%3C/svg%3E");
 }
 
+/* Hero */
+.hero-img {
+  height: 50vh;
+  width: 100%;
+}
+
+.hero-img img {
+  object-fit: cover;
+  height: 100%;
+}
+
 /* Gallery */
 #gallery-title {
   width: 30%;

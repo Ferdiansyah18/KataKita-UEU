@@ -16,3 +16,5 @@ window.addEventListener('scroll', function () {
         navIcon.classList.remove('navbar-toggler-icon-scrolled');
     }
 });
+
+AOS.init();

@@ -200,3 +200,5 @@ function resetTypeText() {
   document.querySelector('#story-title-3').innerHTML = '';
   document.querySelector('#story-content-3').innerHTML = '';
 }
+
+AOS.init();

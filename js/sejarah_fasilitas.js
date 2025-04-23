@@ -97,3 +97,5 @@ function closeOverlay() {
     popUp.classList.add('d-none');
   }, 400);
 }
+
+AOS.init();

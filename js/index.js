@@ -11,3 +11,5 @@ window.addEventListener('scroll', function () {
 function menuButton() {
     navbar.classList.toggle('navbar-clicked')
 }
+
+AOS.init();
