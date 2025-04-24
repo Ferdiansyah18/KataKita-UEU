@@ -3,10 +3,10 @@
 }
 
 #jumbotron-container {
-    background-image: url(../img/download.jpeg);
+    background-image: url(../img/Cover-3.jpeg);
     background-size: cover;
     background-position: center;
-    min-height: 70vh;
+    filter: brightness(0.5);
 }
 
 #home {
